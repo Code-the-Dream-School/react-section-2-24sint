@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import '../App.css';
 
-const Projects = ({name, description, link}) => (
-    
-       <div className="container">
-              <div class="d-flex">
-                  <div class="card">
-                      <div class="card-body">
-                            <h5 class="card-title">{name}</h5>
-                            <p class="card-text">{description}</p>
-                            <a href="https://sintu24.com/" target="_blank" rel="Portfolio" class="btn btn-primary">{link}</a>
-                        </div>
-                  </div>
-              </div>
+const Projects = ({projectsData}) => {
+
+    return(
+        <Fragment>
+                <h3 className="project">Projects</h3>         
+            <div className="container d-flex">
+                {projectsData.map((project, index )=> (  
+            <div className="col-sm-3" key={index}>
+                <div className="card">
+                    <div className="card-body">
+                        <h5 className="card-title">{project.fields.name}</h5>
+                        <p className="card-text">{project.fields.description}</p>
+                        <a href={project.fields.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Click here for Detail</a>
+                    </div>
+                </div>
+            </div>
+                 ))}
         </div>
+                      
+     </Fragment> 
+
 )
+      
+ }
 
 export default Projects;
