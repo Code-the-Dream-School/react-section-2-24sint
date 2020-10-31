@@ -9,7 +9,7 @@ class Navigation extends Component {
         return ( 
             <div className="container-fluid">
                 <nav id="navigation" className="navbar navbar-expand-lg">
-                    <img src={navBarUrl} alt="navPic" className="navPic"/>
+                     <Link exact to='/' style={{textDecoration: "none", color: "white", fontSize: "1.2rem"}}><img src={navBarUrl} alt="navPic" className="navPic"/></Link>
                     
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">

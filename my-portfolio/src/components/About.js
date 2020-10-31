@@ -18,7 +18,8 @@ class  About extends Component {
                     <p>After a while, I met a smart, kind, and helpful volunteers at <strong>Friends of Refugee</strong> became my spine to forward my vision. 
                         It was exciting when I created and present my first website, I remember how many days I spent to put an image on my website. 
                         I amazed when I see my work right now. I added more skills and spend time to update myself each days. Thank you for Code The Dream!  
-                        gave me this opportunity   to disclose  potencial.</p>     
+                        gave me this opportunity   to disclose  potencial.</p>  
+                           
             </div>
      );
     }

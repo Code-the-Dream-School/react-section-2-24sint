@@ -5,7 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import {BrowserRouter as Router, Switch,Route,Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch,Route,HashRouter} from 'react-router-dom';
 
 
 const API_KEY = process.env.REACT_APP_API_KEY
@@ -14,7 +14,7 @@ const BASE_ID = process.env.REACT_APP_BASE_ID
 class App extends Component {
     state = {
       projectsData: [],
-      goBackButton: true
+      goBackButton: true,
     }
   
   componentDidMount() {
@@ -28,24 +28,25 @@ class App extends Component {
 
   render() { 
     return ( 
+      <HashRouter>
       <div>
+     
           <Router>
             <Navigation/>
               <Switch>
-                    <Route path='/home' exact ><Home projectsData={this.state.projectsData}/></Route>
+                    <Route path='/' exact ><Home projectsData={this.state.projectsData}/></Route>
                     <Route path='/about'><About/></Route>
                     <Route path='/projects'><Projects  projectsData={this.state.projectsData}/></Route>
                     <Route path='/contact'><Contact/></Route>
                  
               </Switch>
-              <button className="goBack">
-                    <Link exact to='/home' style={{textDecoration: "none", color: "white", fontSize: "1.2rem"}}>Back to Home</Link>
-              </button>
+              
                   
           </Router>
 
           
       </div>
+      </HashRouter>
        )
   }
 } 

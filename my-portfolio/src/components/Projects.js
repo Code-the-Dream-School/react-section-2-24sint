@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import '../App.css';
+import {Link} from 'react-router-dom';
 
 const Projects = ({projectsData}) => {
 
@@ -18,6 +19,9 @@ const Projects = ({projectsData}) => {
                 </div>
             </div>
                  ))}
+                 <button className="goBack">
+                    <Link exact to='/home' style={{textDecoration: "none", color: "white", fontSize: "1.2rem"}}>Back to Home</Link>
+                </button>
         </div>
                       
      </Fragment> 
