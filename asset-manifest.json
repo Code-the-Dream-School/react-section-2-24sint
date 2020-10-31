@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/css/main.5fde287f.chunk.css",
-    "main.js": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/js/main.5e91130b.chunk.js",
-    "main.js.map": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/js/main.5e91130b.chunk.js.map",
-    "runtime-main.js": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/js/runtime-main.059850fa.js",
-    "runtime-main.js.map": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/js/runtime-main.059850fa.js.map",
-    "static/css/2.6414bb7b.chunk.css": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/css/2.6414bb7b.chunk.css",
-    "static/js/2.8e008619.chunk.js": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/js/2.8e008619.chunk.js",
-    "static/js/2.8e008619.chunk.js.map": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/js/2.8e008619.chunk.js.map",
-    "index.html": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/index.html",
-    "precache-manifest.57df15a31897ea0695d08810c73ca484.js": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/precache-manifest.57df15a31897ea0695d08810c73ca484.js",
-    "service-worker.js": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/service-worker.js",
-    "static/css/2.6414bb7b.chunk.css.map": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/css/2.6414bb7b.chunk.css.map",
-    "static/css/main.5fde287f.chunk.css.map": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/css/main.5fde287f.chunk.css.map",
-    "static/js/2.8e008619.chunk.js.LICENSE.txt": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/js/2.8e008619.chunk.js.LICENSE.txt",
-    "static/media/headshot.jpg": "/Code-the-Dream-School/react-section-2-24sint/tree/master/my-portfolio/static/media/headshot.f8f7e166.jpg"
+    "main.css": "/react-section-2-24sint/static/css/main.5fde287f.chunk.css",
+    "main.js": "/react-section-2-24sint/static/js/main.56254829.chunk.js",
+    "main.js.map": "/react-section-2-24sint/static/js/main.56254829.chunk.js.map",
+    "runtime-main.js": "/react-section-2-24sint/static/js/runtime-main.badfab02.js",
+    "runtime-main.js.map": "/react-section-2-24sint/static/js/runtime-main.badfab02.js.map",
+    "static/css/2.6414bb7b.chunk.css": "/react-section-2-24sint/static/css/2.6414bb7b.chunk.css",
+    "static/js/2.8e008619.chunk.js": "/react-section-2-24sint/static/js/2.8e008619.chunk.js",
+    "static/js/2.8e008619.chunk.js.map": "/react-section-2-24sint/static/js/2.8e008619.chunk.js.map",
+    "index.html": "/react-section-2-24sint/index.html",
+    "precache-manifest.6d06ea17ff717670cea6f1dcd76b0205.js": "/react-section-2-24sint/precache-manifest.6d06ea17ff717670cea6f1dcd76b0205.js",
+    "service-worker.js": "/react-section-2-24sint/service-worker.js",
+    "static/css/2.6414bb7b.chunk.css.map": "/react-section-2-24sint/static/css/2.6414bb7b.chunk.css.map",
+    "static/css/main.5fde287f.chunk.css.map": "/react-section-2-24sint/static/css/main.5fde287f.chunk.css.map",
+    "static/js/2.8e008619.chunk.js.LICENSE.txt": "/react-section-2-24sint/static/js/2.8e008619.chunk.js.LICENSE.txt",
+    "static/media/headshot.jpg": "/react-section-2-24sint/static/media/headshot.f8f7e166.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.059850fa.js",
+    "static/js/runtime-main.badfab02.js",
     "static/css/2.6414bb7b.chunk.css",
     "static/js/2.8e008619.chunk.js",
     "static/css/main.5fde287f.chunk.css",
-    "static/js/main.5e91130b.chunk.js"
+    "static/js/main.56254829.chunk.js"
   ]
 }
