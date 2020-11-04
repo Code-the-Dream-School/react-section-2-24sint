@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import '../App.css';
-import {Link} from 'react-router-dom';
 
 const Projects = ({projectsData}) => {
 
@@ -8,7 +7,7 @@ const Projects = ({projectsData}) => {
         <Fragment>
                 <h3 className="project">Projects</h3>         
             <div className="container d-flex">
-                {projectsData.map((project, index )=> (  
+                {projectsData.map((project, index) => (  
             <div className="col-sm-3" key={index}>
                 <div className="card">
                     <div className="card-body">
@@ -18,16 +17,11 @@ const Projects = ({projectsData}) => {
                     </div>
                 </div>
             </div>
-                 ))}
-                 <button className="goBack">
-                    <Link exact to='/home' style={{textDecoration: "none", color: "white", fontSize: "1.2rem"}}>Back to Home</Link>
-                </button>
-        </div>
-                      
+            
+                 )) }
+        </div>                      
      </Fragment> 
-
-)
-      
+)      
  }
 
 export default Projects;
